@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+*{
+    font-family: Mulish;
+}
+
+/* Header section */
+header{
+    margin: 50px 65px;
+}
+main{
+    width: 1170px;
+    margin: auto;
+}
+header h2{
+    color: #131318;
+    padding: 0;
+    font-size: 2.25rem;
+}
+
+span{
+    color: #FF5400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+nav img{
+    width: 48px;
+    height: 56px;
+    margin-right: 5px;
+    padding-top: 25px;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+/* Banner Section Style */
+.banner-container{
+    width: 1170px;
+    height: 500px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0) 100%), url(../images/Group\ 13.png); 
+    border-radius: 16px;
+}
+.banner-heading h1{
+    color: white;
+    font-size: 4rem; 
+    font-weight: 800; 
+    word-wrap: break-word;
+    text-align: center; 
+    padding-top: 106px;
+}
+.banner-heading p{
+    width: 676px;
+    height: 52px;
+    text-align: center; 
+    color: white; 
+    font-size: 1rem; 
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-left: 250px;
+}
+.search-container {
+    width: 800px;
+    height: 84px;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    display: flex;
+    margin: auto;
+}
+
+.search-input {
+    width: 174px;
+    height: 52px;
+    position: relative;
+}
+
+.input-field {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: white;
+    border-radius: 8px;
+}
+
+.label {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    text-align: center;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.rotate-arrow {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid rgba(19, 19, 24, 0.70);
+    left: 150px;
+    top: 30px;
+    position: absolute;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+}
+
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: inline-flex;
+}
+
+.arrow-line {
+    width: 18px;
+    height: 18px;
+    border: 1.50px white solid;
+}
+
+.search-button {
+    width: 174px;
+    height: 52px;
+    position: relative;
+}
+
+.button-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #FF5400;
+    border-radius: 8px;
+}
+
+.button-content {
+    width: 105px;
+    height: 24px;
+    left: 35px;
+    top: 14px;
+    position: absolute;
+}
+
+.button-label {
+    left: 32px;
+    top: 2px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Our popular tours style */
+
+.popular-tours {
+    text-align: center;
+    color: #131318;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.popular-tours-content{
+    margin-right: 53px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+
+.description {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.additional-info {
+    width: 530px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.tour-image {
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+.cta-button {
+    width: 174px;
+    height: 52px;
+    background: #FF5400;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 800;
+    word-wrap: break-word;
+    padding-top: 18px;
+}
+
+.tour-image {
+    width: 540px;
+    height: 550px;
+    border-radius: 1rem;
+}
+
+/* Destination section style */
