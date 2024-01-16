@@ -5,20 +5,8 @@
 
 /* Header section */
 header{
-    margin: 50px 65px;
-}
-main{
     width: 1170px;
     margin: auto;
-}
-header h2{
-    color: #131318;
-    padding: 0;
-    font-size: 2.25rem;
-}
-
-span{
-    color: #FF5400;
 }
 
 nav {
@@ -30,18 +18,24 @@ nav {
 .logo {
     display: flex;
 }
-
 nav img{
     width: 48px;
     height: 56px;
     margin-right: 5px;
     padding-top: 25px;
 }
+header h2{
+    color: #131318;
+    padding: 0;
+    font-size: 2.25rem;
+}
+span{
+    color: #FF5400;
+}
 
 nav > ul{
     display: flex;
 }
-
 nav li{
     list-style: none;
     margin-right: 40px;
@@ -185,29 +179,40 @@ nav li a{
 
 /* Our popular tours style */
 
+main{
+    width: 1170px;
+    margin: auto;
+}
 .popular-tours {
-    text-align: center;
+    text-align: left;
     color: #131318;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     margin-top: 100px;
+    
 }
 .popular-tours-content{
+    width: 577px;
     margin-right: 53px;
 }
 
 .title {
     font-size: 2.5rem;
     font-weight: 800;
-    word-wrap: break-word;
     margin-bottom: 24px;
 }
 
 .description {
-    width: 525px;
+    width: 577px;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 400;
+    margin-bottom: 15px;
+}
+.description > li{
+    margin-bottom: 15px;
+    width: 450px;
 }
 
 .additional-info {
@@ -219,8 +224,8 @@ nav li a{
 }
 
 .tour-image {
-    width: 540px;
-    height: 550px;
+    width: 500px;
+    height: 480px;
     border-radius: 16px;
 }
 
@@ -237,53 +242,139 @@ nav li a{
     padding-top: 18px;
 }
 
-.tour-image {
-    width: 540px;
-    height: 550px;
-    border-radius: 1rem;
-}
 
-/* Destination section style
+/* Destination section style */
 
-.destination-section {
+.destination-headline {
+    margin-top: 100px;
     text-align: center;
     color: #131318;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 800;
-    word-wrap: break-word;
 }
 
-.description {
+.description-card {
     width: 643px;
     text-align: center;
     color: rgba(19, 19, 24, 0.70);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
-    word-wrap: break-word;
+    margin-left: 280px;
 }
 
-.destination-card {
-    height: 300px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
-    border-radius: 16px;
-    margin-bottom: 10px;
+.card-row-1, .card-row-2, .card-row-3{
+    display: flex;
+    gap: 24px;   
 }
-
-.card-background {
-    height: 100%;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
-    border-radius: 16px;
+.card-row-1{
+    margin-top: 48px;
+    height: 300px; 
 }
-
-.destination-name {
-    text-align: center;
+.Maldives{
+    width: 573px;
+    height: 300px; 
+    background-image: url(../images/maldiv.png);
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+ 
+}
+.Maldives-text{
+    text-align: center; 
     color: white;
-    font-size: 28px;
-    font-weight: 800;
-    word-wrap: break-word;
+    font-size: 2rem;
+    font-weight: 800;  
+    padding-top: 132px;
 }
- */
+.Indonesia{
+    width: 573px;
+    height: 300px; 
+    background-image: url(../images/indo.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.Indonesia-text{
+    text-align: center; 
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
+.card-row-2{
+    margin-top: 24px;
+    height: 286px; 
+}
+.Srilanka{
+    width: 374px;
+    background-image: url(../images/sri.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+
+}
+.Srilanka-text{
+    text-align: center; 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
+.North-America{
+    width: 474px;
+    background-image: url(../images/north.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.North-America-text{
+    text-align: center; 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
+.Kashmir{
+    width: 274px;
+    background-image: url(../images/north.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.Kashmir-text{
+    text-align: center; 
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
+.card-row-3{
+    margin-top: 24px;
+    height: 300px; 
+}
+.Bangladesh{
+    width: 473px;
+    background-image: url(../images/bangla.png);
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+ 
+}
+.Bangladesh-text{
+    text-align: center; 
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
+.Bandorban{
+    width: 673px;
+    background-image: url(../images/bandor.png);
+    background-repeat: no-repeat;
+    border-radius: 16px; 
+ 
+}
+.Bandorban-text{
+    text-align: center; 
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;  
+    padding-top: 132px;
+}
