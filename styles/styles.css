@@ -15,19 +15,21 @@ nav {
     align-items: center;
 }
 
-.logo {
+.site-name {
     display: flex;
+    justify-content: space-between;
+    width: 290px;
+    margin-top: 16px;
 }
-nav img{
+.logo{
     width: 48px;
     height: 56px;
-    margin-right: 5px;
-    padding-top: 25px;
+    margin-right: 10px;
 }
-header h2{
+.site-title{
     color: #131318;
-    padding: 0;
     font-size: 2.25rem;
+    font-weight: 800;
 }
 span{
     color: #FF5400;
@@ -544,4 +546,48 @@ hr{
     color: white; 
     font-size: 2rem; 
     font-weight: 800;
+}
+
+/* footer section */
+.footer-section{
+    margin-top: 100px;
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1313180D;
+    height: 400px;
+}
+.footer-description{
+    width: 769px;
+    height: 52px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+.footer-social-media-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 174px;
+    margin-bottom: 50px;
+}
+.footer-social-media-icon img{
+    width: 20px;
+    height: 20px;
+}
+#footer-hr{
+    width: 872px; 
+    height: 0px; 
+    border: 1px #1313181A solid;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.footer-rights{
+    margin-bottom: 110px;
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 400;
 }
