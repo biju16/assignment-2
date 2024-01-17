@@ -525,10 +525,6 @@ hr{
     width: 672px;
     height: 422px;
 }
-/* .transform-container{
-    transform: scale(.75);
-
-} */
 .inner{
     width: 324px;
     height: 120px; 
@@ -717,9 +713,31 @@ hr{
         margin-bottom: 0;
     }
     .newsletter-section-2{
-        width: 545px;
+        width: 568px;
+        margin-left: 8px;
+    }
+    .transform-container{
         height: 422px;
-        margin-left: 20px;
+    }
+    .inner{
+        transform: rotate(-19.63deg) translateX(107px) translateY(370px); 
+    }
+    .footer-section{
+        margin-top: 500px;
+    }
+    .site-name {
+        margin-right: 180px;
+        margin-top: 0px;
+    }
+    .footer-description{
+        width: 450px;
+    }
+    .footer-social-media-icon{
+        margin-top: 40px;
+        width: 200px;
+    }
+    #footer-hr{
+        width: 400px;
     }
 }
     
