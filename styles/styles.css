@@ -378,3 +378,63 @@ main{
     font-weight: 800;  
     padding-top: 132px;
 }
+
+/* Why choose us section */
+.why-choose-us-headline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 48px;
+}
+.why-choose-us-header{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.why-choose-us-sub-header{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.why-choose-us-row-1{
+    display: flex;
+}
+.why-choose-us-part-1, .why-choose-us-part-2, .why-choose-us-part-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    height: 250px;
+    background: rgba(251, 181, 99, 0.05);
+    border-radius: 16px; 
+    border: 1px rgba(251, 181, 99, 0.20) solid;
+    margin-right: 24px;
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.why-choose-us-title, .why-choose-us-description, .why-choose-us-image{
+    padding-bottom: 20px;
+}
+
+.why-choose-us-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-wrap: break-word
+}
+.why-choose-us-description{
+    width: 486px;
+    height: 78px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.why-choose-us-row-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
